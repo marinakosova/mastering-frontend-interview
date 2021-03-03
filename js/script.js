@@ -247,38 +247,44 @@ var colors = [
 
 
 // Hoisting
-var howMany = 12;
+// var howMany = 12;
 
-function createBoxes(qty = 4) { // default
-    var myBoxes = document.querySelector('.boxes');
+// function createBoxes(qty = 4) { // default
+//     var myBoxes = document.querySelector('.boxes');
 
-    for (var i = 0; i < qty; i++) {
-        var myNode = document.createElement('div');
-        myNode.className = 'box';
-        myBoxes.appendChild(myNode);
-    }
+//     for (var i = 0; i < qty; i++) {
+//         var myNode = document.createElement('div');
+//         myNode.className = 'box';
+//         myBoxes.appendChild(myNode);
+//     }
 
-}
+// }
 
-createBoxes(howMany);
+// createBoxes(howMany);
 
 // will get undefined
-var howMany;
-console.log(howMany); // undefined
+// var howMany;
+// console.log(howMany); // undefined
 
-function createBoxes(qty = 4) { // default
-    var myBoxes = document.querySelector('.boxes');
+// function createBoxes(qty = 4) { // default
+//     var myBoxes = document.querySelector('.boxes');
 
-    for (var i = 0; i < qty; i++) {
-        var myNode = document.createElement('div');
-        myNode.className = 'box';
-        myBoxes.appendChild(myNode);
-    }
+//     for (var i = 0; i < qty; i++) {
+//         var myNode = document.createElement('div');
+//         myNode.className = 'box';
+//         myBoxes.appendChild(myNode);
+//     }
 
-}
+// }
 
-howMany = 8; // will get 8 boxes
+// howMany = 8; // will get 8 boxes
 
-createBoxes(howMany);
+// createBoxes(howMany);
 
-howMany = 8; // will get default 4 boxes
+// howMany = 8; // will get default 4 boxes
+
+
+// Closure
+
+
+// Map
